@@ -5,7 +5,117 @@
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
 @import 'fontawesome-all.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
+//@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
+
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-ExtraLight.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-ExtraLight.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 200;
+	font-style: italic;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-ExtraLightIt.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-ExtraLightIt.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-Light.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-Light.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-LightIt.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-LightIt.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-Regular.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-Regular.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-It.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-It.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-Semibold.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-Semibold.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-style: italic;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-SemiboldIt.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-SemiboldIt.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-Bold.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-Bold.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-BoldIt.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-BoldIt.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-Black.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-Black.otf.woff') format('woff');
+  }
+  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	src: url('/webfonts/SourceSansPro-BlackIt.ttf.woff2') format('woff2'),
+	  url('/webfonts/SourceSansPro-BlackIt.otf.woff') format('woff');
+  }
+
 
 /*
 	Hugo Story by CaressOfSteel
